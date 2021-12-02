@@ -1,29 +1,54 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Week 2 exercise</title>
-    <meta name="description" content="This is the lab exercise for week 2">
-    <meta name="keywords" content="lab 2, week 2, java">
-    <meta name="author" content="Tatiana Vutcariov">
+    <title>COMP1231 Assignment winter 2021</title>
+    <script>
+        /* replace Your_STUDENT_ID with your 9 digits student ID */
+        const STUDENT_ID = '101338006';
+        /* replace YourFunctionName with the name of your function */
+        var myFunctions = {
+            'step1' : 'deleteDuplicates',
+            'step2' : 'FailPass',
+            'step3' : 'checkDate',
+            'step4' : 'dateDiff',
+            'step5' : 'SwapCharacters',
+            'step6' : 'moveLetters',
+            'step7' : 'stringToNumber',
+            'step8' : 'SortMe',
+            'step9' : 'RepeatingChars',
+            'step10' : 'CapitalizeLetter'
+
+
+        }
+    </script>
 </head>
 <body>
-      <h1>Tatiana Vutcariov 101338006</h1>
-      <p id="demo"></p>
-
-      <script>
-          let demo = document.getElementById("demo");
-          var input1 = parseInt(prompt("Enter first number:"));
-          var input2 = parseInt(prompt("Enter second number:"));
-          var input3 = parseInt(prompt("Enter third number:"));
-          let total = prompt("Your numbers are : "+ input1 + " "+ input2 + " "+ input3 + " ");
-          var result = (input1 + input2 + input3) / 3;
-          demo.innerHTML= "The average of three numbers: " + result
-      </script>
-
-
+<script  src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="https://comp1231.gblearn.com/common/.w2021/project_tester.js"></script>
+<div style="width:70%;margin:0px auto">
+    <h1>Except your student id and your function name don't change any other element or file.</h1>
+    <pre>
+                        1. Replace "Your_STUDENT_ID" string with your 9 digits student ID //const STUDENT_ID = 'Your_STUDENT_ID';
+                        2. Replace "YourFunctionName" string with the name of your function
+                        var myFunctions = {
+                        'step1': 'YourFunctionName',
+                        'step2': 'YourFunctionName',
+                        'step3': 'YourFunctionName',
+                        'step4': 'YourFunctionName',
+                        'step5': 'YourFunctionName',
+                        'step6': 'YourFunctionName',
+                        'step7': 'YourFunctionName',
+                        'step8': 'YourFunctionName',
+                        'step9': 'YourFunctionName',
+                        'step10' : 'YourFunctionName'
+                        }
+                        if you have not created the step's function, please leave the current value as is.
+                        3. Make sure all your functions are in Your_Student_id-<b>functions.js</b> and is in the same directory as main.html. The tester script will automatically load your js file.
+                        4. Check your function for any syntax error before using the tester script. Any error caused by your function will stop the tester script.
+                        </pre>
+</div>
+<div style='background:yellow;height:300px;width:2px'></div>
 </body>
-<footer>
-    <script src=" https://my.gblearn.com/js/loadscript.js"></script>
-</footer>
 </html>
